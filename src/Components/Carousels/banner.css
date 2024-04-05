@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.conatinerDiv{
+    width: 100%;
+    height: 100vh;
+}
+.banner {
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    background-image: url('../../assets/Images/frontImg.jpg');
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .bannerText {
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px; /* Adjust padding as needed */
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .bannerText h1 {
+    white-space: pre-line; /* Allow text to wrap */
+  }
+    
+  
+

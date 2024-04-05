@@ -1,0 +1,18 @@
+.vission{
+    border-radius: 2rem;
+    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem yellow;
+    margin:2rem;
+    text-align: center;
+}
+.vissionInfoDiv{
+    font-size: 1rem;
+
+}
+.vissionInfoDiv h3{
+   text-decoration: underline;
+   text-decoration-color: yellow;
+}
+.vissionIcon{
+    width: 8rem;
+    height: 8rem;
+}
