@@ -1,15 +1,9 @@
 import './mission.css';
-import missionImg from '../../assets/Images/missionImg.png'
 function mission(){
     return(
         <div className="mission p-2">
-            <div className="missionImgDiv">
-                <img src={missionImg} alt="mission" className='missionIcon' />
-            </div>
-            <div className="missionInfoDiv">
-                <h3 className='my-3'>Mission</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere quam nobis corporis, consequatur porro eveniet dolorum ex corrupti vero dolor voluptatibus quis unde blanditiis minus modi eius culpa sint facilis!</p>
-            </div>
+            <h4>Mission</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati dolore ratione repellendus beatae! Voluptates dignissimos molestiae exercitationem, molestias consequatur magni. Debitis veritatis laborum nobis aut, veniam ratione iste delectus ipsam.</p>
         </div>
     )
 }

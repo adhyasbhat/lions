@@ -1,19 +1,5 @@
 .values{
-    border-radius: 2rem;
-    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem #163f7e;
-    margin:2rem;
-    text-align: center;
-}
-
-.valuesInfoDiv{
-    font-size: 1rem;
-
-}
-.valuesInfoDiv h3{
-   text-decoration: underline;
-   text-decoration-color: #163f7e;
-}
-.vauesIcon{
-    width: 8rem;
-    height: 8rem;
+   background-image: url('../../assets/Images/blueBlock1.png');
+    height: 30rem;
+    width: 30rem;
 }

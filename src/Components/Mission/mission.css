@@ -1,18 +1,5 @@
 .mission{
-    border-radius: 2rem;
-    box-shadow: 0.15rem 0.15rem 0.15rem 0.15rem red;
-    margin:2rem;
-    text-align: center;
-}
-.missionInfoDiv{
-    font-size: 1rem;
-
-}
-.missionInfoDiv h3{
-   text-decoration: underline;
-   text-decoration-color: red;
-}
-.missionIcon{
-    width: 8rem;
-    height: 8rem;
+background-image: url('../../assets/Images/yellowBlock\ \(1\).png') ;
+height: 20rem;
+width: 20rem;
 }
