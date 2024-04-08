@@ -1,0 +1,18 @@
+.vmv{
+    position: relative;
+}
+.vissionDiv,.missionDiv,.valueDiv{
+   position: absolute;
+}
+.vissionDiv{
+    position: absolute;
+    top: 4rem;
+    right: 67rem;
+}
+.missionDiv{
+    right: 38rem;
+}
+.valueDiv{
+    top:4rem;
+    right: 12rem;
+}

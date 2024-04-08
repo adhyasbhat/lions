@@ -15,7 +15,6 @@ function Navbar() {
                 <NavLink to="/" exact>Home</NavLink>
                 <NavLink to="/activities">Activities</NavLink>
                 <NavLink to="/events">Events</NavLink>
-                <NavLink to="/gallery">Gallery</NavLink>
                 <NavLink to="/members">Members</NavLink>
                 <NavLink to="/contact">Contact Us</NavLink>
         </div>

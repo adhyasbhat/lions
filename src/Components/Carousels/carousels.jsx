@@ -1,6 +1,7 @@
 // import banner from '../../assets/Images/frontImg.jpg';
 import b1 from '../../assets/Images/b1.jpg';  
 import b2 from '../../assets/Images/b2.jpg';
+import './banner.css'
 function banner(){
   return(
     <div className='banner'>

@@ -1,5 +1,19 @@
 .vission{
 background-image: url('../../assets/Images/blueBlock2.png');
-height: 35rem;
-width: 35rem;
+position: relative;
+height: 27.2rem;
+  width: 27rem;
+}
+.vission h4{
+    position: absolute;
+  top: 7rem;
+  right: 9rem;
+  color: white;
+}
+.vission p{
+    width: 63%;
+  position: absolute;
+  top: 9rem;
+  right: 5rem;      
+  color: white;
 }

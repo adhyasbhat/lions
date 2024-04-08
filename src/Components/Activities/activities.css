@@ -1,0 +1,8 @@
+.activity{
+    border: 2px solid #1C355B;
+    border-radius: 1rem;
+}
+.activityIcon{
+    height: 2rem;
+    width: 2rem;
+}
