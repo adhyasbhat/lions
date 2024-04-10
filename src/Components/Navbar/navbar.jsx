@@ -4,11 +4,11 @@ import logo from '../../assets/Images/logo.png'
 import './navbar.css';
 function Navbar() {
     return (
-        <div className="d-flex justify-content-evenly">
-            <div className="logos d-flex justify-content-center gap-1">
-            <img className='logo' src={logo} alt="logo" />
-            <img className='logo' src={logo} alt="logo" />
-            <img className='logo' src={logo} alt="logo" />
+        <div className="d-flex justify-content-evenly align-items-center py-3">
+            <div className="logos d-flex justify-content-center">
+            <img className='logo mx-3' src={logo} alt="logo" />
+            <img className='logo mx-3' src={logo} alt="logo" />
+            <img className='logo mx-3' src={logo} alt="logo" />
             </div>
 
         <div className='navBar'>
@@ -19,7 +19,7 @@ function Navbar() {
                 <NavLink to="/contact">Contact Us</NavLink>
         </div>
         <div className="justify-content-center">
-        <button>Donate</button>
+        <button className='donate p-1'>Donate</button>
         </div>
         </div>
     );

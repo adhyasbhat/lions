@@ -7,15 +7,25 @@
     background: #ffffff
 }
 .navBar a{
-    font-size: 1.3rem;
+    font-size: 1rem;
+    font-weight: 600;
     text-decoration: none;
     color: rgb(81, 81, 81);
 }
 .navBar a.active {
-    color: #1C355B;
+    color: #2263c5;
     padding: 0.5rem;
+    text-decoration: underline;
+    text-decoration-color:#2263c5;
 }
 .logo{
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
+}
+.donate{
+    color: white;
+    background: #2263c5;
+    border: none;
+    width: 6rem;
+    border-radius: 0.25rem;
 }
