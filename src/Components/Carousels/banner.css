@@ -1,9 +1,15 @@
 .banner{
-  background: #1C355B;
+  background: #1C509C;
   color: white;
+}
+.infoBar{
+  font-size: 18px;
 }
 .leftText{
 width: 60%;
+}
+.clubName{
+  font-size: 40px;
 }
 .rightImg{
   width: 40%;

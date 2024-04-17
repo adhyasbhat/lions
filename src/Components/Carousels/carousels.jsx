@@ -5,7 +5,7 @@ import './banner.css'
 function banner(){
   return(
     <div className='banner'>
-      <div className='d-flex justify-content-start gap-2'>
+      <div className='d-flex justify-content-start gap-2 infoBar'>
         <div>
           Club number 152131
         </div>
@@ -18,7 +18,7 @@ function banner(){
       </div>
       <div className='d-flex'>
         <div className='leftText'>
-          <h1>Lions Club Of Bengaluru Crystals</h1>
+          <div className='clubName'>Lions Club Of Bengaluru Crystals</div>
         <p>Our club is dedicated to making a difference in the lives of those less fortunate in our neighbouring communities. Together, we unite with compassion and determination to serve, uplift and bring hope to those who need it most.</p>
         <div className='d-flex justify-content-start'>
         <button className='activityBtn'> What we do</button>
