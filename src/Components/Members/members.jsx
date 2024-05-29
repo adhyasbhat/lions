@@ -17,7 +17,7 @@ function Members() {
   return (
     <div>
       {/* Map over the chunked membersData */}
-      {chunkedMembers.map((row, rowIndex) => (
+      {map((row, rowIndex) => (
         <div key={rowIndex} className='d-flex justify-content-between'>
           {/* Map over each row of members */}
           {row.map((item, index) => (
