@@ -1,5 +1,6 @@
+import React from 'react';
 import { membersData } from '../membersData';
-
+import Card from 'react-bootstrap/Card';
 function Members() {
   // Chunk the membersData into arrays of 5 members each
   const chunkedMembers = membersData.reduce((resultArray, item, index) => { 
@@ -17,21 +18,24 @@ function Members() {
   return (
     <div>
       {/* Map over the chunked membersData */}
-      {map((row, rowIndex) => (
-        <div key={rowIndex} className='d-flex justify-content-between'>
+      {chunkedMembers.map((row, rowIndex) => (
+        <div key={rowIndex} className='d-flex justify-content-evenly'>
           {/* Map over each row of members */}
           {row.map((item, index) => (
             <div key={index} className='member p-3 m-3'>
               <div className='d-flex justify-content-between'>
                 <div>
-                  <div className='d-flex align-items-center'>
-                    <img className='memberIcon mx-2' src={item.photo} alt="" />
-                    <h6>{item.name}</h6>
-                  </div>
-                  <div>
-                    <div>{item.phone}</div>
-                    <div>{item.occupation}</div>
-                  </div>
+                  
+                  <Card style={{ width: '18rem' }}>
+      <Card.Img variant="top" src={item.photo} />
+      <Card.Body>
+        <Card.Title>{item.name}</Card.Title>
+        <Card.Text>
+        {item.phone}
+        </Card.Text>
+        <Card.Text>{item.occupation}</Card.Text>
+      </Card.Body>
+    </Card>
                 </div>
               </div>
             </div>
