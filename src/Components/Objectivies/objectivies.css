@@ -1,0 +1,13 @@
+.objectivies{
+    display: grid;
+    border: 1px solid black;
+}
+.objectivitiesImage{
+    width: 15rem;
+    height: 11rem;
+}
+.react-multi-carousel-item{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}

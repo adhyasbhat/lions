@@ -1,0 +1,14 @@
+.purposeDiv{
+    background: #1c365c;
+  color: white;
+  height: 35rem;
+  display: grid;
+}
+.width-30{
+    width: 30%;
+}
+.iconsDiv{
+    background: white;
+    width: 2rem;
+    height: 2rem;
+}
